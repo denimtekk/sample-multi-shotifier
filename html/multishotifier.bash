@@ -103,7 +103,7 @@ slice(){
 _writemultishot(){
   _outfile="$outfile"
   # convert checkboxes into normal values
-  [[ ${#slice}       > 0 ]] && _slice=1       || _slice=0
+  [[ ${#slice}       > 4 ]] && _slice=1       || _slice=0
   [[ ${#normalize}   > 0 ]] && _normalize=1   || _normalize=0
   [[ ${#recursive}   > 0 ]] && _recursive=1   || _recursive=0
   [[ ${#mono}        > 0 ]] && _mono=1        || _mono=0
